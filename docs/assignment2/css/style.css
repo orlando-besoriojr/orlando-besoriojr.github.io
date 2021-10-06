@@ -1,0 +1,208 @@
+
+#main {
+  border: 0px solid;
+  width: 90%;
+  margin: 10px auto;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+h3 {
+  text-decoration: underline;
+}
+
+body {
+background-color: BLACK;   
+color:WHITE;
+font-family: "Courier New", "Ludica Console", monospace;
+}
+
+img {
+width: 512px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+height: auto;
+}
+
+table {
+border:0.5px solid white;
+background-color: black;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+th, td {
+border:0.5px solid white;
+}
+
+figcaption {
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+
+.clearfix {
+   clear:both;
+}
+
+/* RETURN BUTTON */
+.button {
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  border: 1px auto;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+/* NAV */
+nav {
+  position: relative;
+  overflow: hidden;
+  width: 0 auto;
+  margin: 0 auto;
+  padding: 1%;
+  border-style: double;
+  border-width: 5px;
+  border-color: white;
+}
+
+nav ul {
+  position: relative;
+  display: flex;
+}
+
+nav li {
+  display: inline-block;
+  text-align: center;
+}
+
+nav li a {
+  float: left;
+  display: block;
+  padding: 2vh;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+
+/* TRIPLE COLUMN */
+.tripleLeft {
+  width: 30%;
+  margin-right: 1%;
+  float: left;
+}
+
+.tripleMid {
+  width: 30%;
+  margin-right: 1%;
+  float: left;
+}
+
+.tripleRight {
+  margin-right: 0;
+}
+
+/* DOUBLE COLUMN WITH FIG */
+
+#fig {
+  float: right;
+  width: 50%;
+}
+
+.doubleLeft {
+  float: left;
+  width: 45%;
+}
+
+/* DOUBLE COLUMN WITH FIG2 */
+
+#fig2 {
+  float: left;
+  width: 50%;
+}
+
+.doubleRight {
+  float: right;
+  width: 45%;
+}
+
+/* introDos */
+.introDos {
+  background: #0000FF;
+  width: 0 auto;
+  margin: 0 auto;
+  padding: 1%;
+  border-style: double;
+  border-width: 5px;
+  color: white;
+}
+
+/* dosBox */
+.dosBox {
+  position: relative;
+  width: 0 auto;
+  margin: 0 auto;
+  border-width: 5px;
+  padding: 1%;
+  border-style: double;
+  border-color: white;
+}
+
+.dosBox li {
+  color: white;
+}
+
+.dosBox #special {
+  color: white;
+}
+
+.dosBox h3 {
+  color: white;
+}
+
+.dosBox p {
+  color: white;
+}
+
+.boxOutLeft {
+  background: black;
+  position: relative;
+  width: 50%;
+  margin: 20px -5%;
+  border-width: 5px;
+  padding: 1%;
+  border-style: double;
+  border-color: white;
+}
+
+.boxOutMid {
+  background: black;
+  position: relative;
+  width: 50%;
+  margin: 20px 10%;
+  border-width: 5px;
+  padding: 1%;
+  border-style: double;
+  border-color: white;
+}
+
+.boxOutRight {
+  background: black;
+  position: relative;
+  width: 50%;
+  margin: 20px 50%;
+  border-width: 5px;
+  padding: 1%;
+  border-style: double;
+  border-color: white;
+}
+
+#img1 { 
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
