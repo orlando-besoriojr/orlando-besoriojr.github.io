@@ -89,6 +89,10 @@ nav li a {
   color: white;
 }
 
+nav li a:hover {
+  background-color: #585858;
+}
+
 /* TRIPLE COLUMN */
 .tripleLeft {
   width: 30%;
