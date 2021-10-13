@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Animated Reproduction</title>
+    <link rel="stylesheet" href="css/styleAnimated.css">
+
+    <!-- link to style sheet -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- linking to the jquery -->
+     <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+ 
+     
+     <!-- calling on the jquery draggable function -->
+     <script>
+    function hideText() {
+         $( "h1" ).toggle("fade");
+         $( "h2").toggle("fade");
+         $( "p").toggle("fade");
+    }
+    function openCanvas() {
+        $( ".canvas" ).toggle("clip");
+    }
+    $( function() {
+        $( ".blackBox" ).draggable();
+        $( ".redBox" ).draggable();
+        $( ".yellowBox" ).draggable();
+        $( ".bigWhiteBox" ).draggable();
+        $( ".topBlueBox" ).draggable();
+        $( ".bottomBlueBox" ).draggable();
+        $( ".greyBox" ).draggable();
+    });
+   </script>
+</head>
+<div class="main">
+<body>
+    <h1>Animated Reproduction of: Theo van Doesburg, Counter composition XIII, 1929</h1>
+    <!-- z-index 1: container -->
+    <div class="canvas">
+        <!-- z-index -1: top layer -->
+        <div class="blackBox"></div>
+        <div class="redBox"></div>
+
+        <!-- z-index -2: middle layer -->
+        <div class="yellowBox"></div>
+        <div class="bigWhiteBox"></div>
+        <div class="topBlueBox"></div>
+
+        <!-- z-index -3: bottom layer-->
+        <div class="bottomBlueBox"></div>
+        <div class="greyBox"></div>
+        
+
+        <!-- z-idnex -4: bottom layer-->
+        <div class="smallWhiteBox"></div>
+    </div>
+
+    <h2>Lorem Ipsum: Animated Picture</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam voluptates a reprehenderit alias ipsa facere consequuntur, eum aspernatur consequatur, unde quaerat accusamus omnis, cumque velit ullam suscipit sit sunt cum? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus id reprehenderit necessitatibus repellendus repellat, sequi, assumenda, corrupti incidunt fugiat illo ullam cumque maxime odit dignissimos ipsa explicabo qui quis velit! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem dolor, sunt fuga velit accusamus beatae quas ut laudantium saepe sapiente vero impedit enim consectetur consequuntur, alias suscipit. Quaerat, id vero?</p>
+
+    <button><a style="text-decoration: none;" href="index.html">Return to Main Page</a></button>
+    <button onclick="hideText()">Click to Hide/Show Text</button>
+    <button onclick="openCanvas()">Click to Open/Close Picture</button>
+</body>
+</div>
+</html>

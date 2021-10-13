@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Reproduction</title>
+    <link rel="stylesheet" href="css/styleStatic.css">
+</head>
+<body>
+    <h1>Static Reproduction of: Theo van Doesburg, Counter composition XIII, 1929</h1>
+
+    <!-- z-index 1: container -->
+    <div class="canvas">
+        <!-- z-index -1: top layer -->
+        <div class="blackBox"></div>
+        <div class="redBox"></div>
+
+        <!-- z-index -2: middle layer -->
+        <div class="yellowBox"></div>
+        <div class="bigWhiteBox"></div>
+        <div class="topBlueBox"></div>
+
+        <!-- z-index -3: bottom layer-->
+        <div class="bottomBlueBox"></div>
+        <div class="greyBox"></div>
+        
+
+        <!-- z-idnex -4: bottom layer-->
+        <div class="smallWhiteBox"></div>
+    </div>
+
+    <button ><a style="text-decoration: none;"href="index.html">Return to Main Page</a></button>
+</body>
+</html>

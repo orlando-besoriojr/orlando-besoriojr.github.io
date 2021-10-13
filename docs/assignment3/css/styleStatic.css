@@ -1,0 +1,107 @@
+.canvas {
+    width: 50vw;
+    height: 50vw;
+    margin: auto;
+    background-color: white;
+    box-sizing: border-box;
+    border: 1px solid rgb(90, 90, 90);
+    border-radius: 4px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.blackBox {
+    position: absolute;
+    background-color: #221d1a;
+    width: 105%;
+    height: 48%;
+    transform: rotate(-90deg);
+    top: 23.5%;
+    left: -41%;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    z-index: -1;
+}
+
+.redBox {
+    position: absolute;
+    background-color: #ad1507;
+    width: 198%;
+    height: 100%;
+    transform: rotate(-90deg);
+    top: 14%;
+    left: -13.6%;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    z-index: -1;
+}
+
+.yellowBox {
+    position: absolute;
+    background-color: #ca9c47;
+    width: 50%;
+    height: 24%;
+    transform: rotate(90deg);
+    top: 65%;
+    left: -15%;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    z-index: -2;
+}
+
+.bigWhiteBox {
+    position: absolute;
+    background-color: #dbd2cb;
+    width: 100%;
+    height: 50%;
+    transform: rotate(90deg);
+    top: -1.2%;
+    left: 1%;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    z-index: -2;
+}
+
+.topBlueBox {
+    position: absolute;
+    background-color: #a4a7ae;
+    width: 65%;
+    height: 35%;
+    transform: rotate(-45deg);
+    top: -10%;
+    left: -30%;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    z-index: -2;
+}
+
+.bottomBlueBox {
+    position: absolute;
+    background-color: #a4a7ae;
+    width: 100%;
+    height: 50%;
+    transform: rotate(90deg);
+    top: 70%;
+    left: 10.45%;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    z-index: -3;
+}
+
+.greyBox {
+    position: absolute;
+    background-color: #756a6e;
+    width: 100%;
+    height: 50%;
+    transform: rotate(180deg);
+    top: 0%;
+    left: 20%;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    z-index: -3;
+}
+
+.smallWhiteBox {
+    position: absolute;
+    background-color: #dbd2cb;
+    width: 50%;
+    height: 26%;
+    top: 76%;
+    left: -2%;
+    clip-path: polygon(0% 100%, 50% 0%, 100% 100%);
+    z-index: -4;
+}
