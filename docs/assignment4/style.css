@@ -87,7 +87,7 @@ button {
     text-decoration: none;
     border: 1px inset white;
     background: transparent;
-    position:fixed;
+    position:relative;
 }
 
 .clearFix {
