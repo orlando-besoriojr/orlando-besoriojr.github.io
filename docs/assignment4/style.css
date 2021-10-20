@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+.main {
+    font-family: 'Tomorrow', sans-serif;
+    border: 0px solid;
+    width: 80%;
+    margin: 10px auto;
+}
+
+.smallContainer {
+    width: 80%;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1%;
+    margin-top: 5%;
+    background-color: #fcec0c;
+    padding: 0.5%;
+    border-radius: 25px;
+}
+
+.doubleLeft {
+    float: left;
+    width: 45%;
+    display: none;
+    width: 0 auto;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #fcec0c;
+    border-radius: 25px;
+}
+
+.doubleRight {
+    float: right;
+    width: 45%;
+    display: none;
+    width: 0 auto;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #fcec0c;
+    border-radius: 25px;
+}
+
+.container {
+    display: none;
+    width: 0 auto;
+    margin: 0 auto;
+    padding: 1%;
+    background-color: #fcec0c;
+    border-radius: 25px;
+}
+
+.tripleLeft {
+    width: 25%;
+    margin-right: 1%;
+    float: left;
+    display: none;
+}
+  
+.tripleMid {
+    width: 50%;
+    margin-right: 1%;
+    float: left;
+    display: none;
+
+}
+  
+.tripleRight {
+    width: 20%;
+    margin-right: 0;
+    float:left;
+    display: none;
+}
+
+button {
+    color: white;
+    text-decoration: none;
+    border: 1px inset white;
+    background: transparent;
+    position:fixed;
+}
+
+.clearFix {
+    clear: both;
+}
+
+#backLight {
+    display: none;
+    z-index: 1;
+}
+
+#backPage {
+    font-family: 'Old English Text MT', sans-serif;
+    display: none;
+    color: white;
+}
+
+#banner1 {
+    max-width: 80%;
+    max-height: 80%;
+    padding: 1%;
+    border-radius: 25px;
+}
+
+#banner2 {
+    max-width: 80%;
+    max-height: 80%;
+    padding: 1%;
+    border-radius: 25px;
+}

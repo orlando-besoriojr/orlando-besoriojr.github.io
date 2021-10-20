@@ -1,0 +1,18 @@
+https://www.pexels.com/photo/close-up-photo-ofg-light-bulb-716398/
+https://www.pexels.com/photo/illuminated-lamp-against-black-background-247782/
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.deviantart.com%2Fartursadlos%2Fart%2FCyberpunk-City-683952796&psig=AOvVaw3FdkQBBCQa1zSlq0MshEd0&ust=1634844869151000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCKiB-vjd2fMCFQAAAAAdAAAAABAO
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.teahub.io%2Fviewwp%2FihRRwoh_gothic-cyberpunk-city%2F&psig=AOvVaw2vV-kNDdzBcV3Ue_jZP_XW&ust=1634846583659000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNi9iZ_k2fMCFQAAAAAdAAAAABAq
+https://www.pexels.com/photo/arched-stained-glass-window-inside-church-3767028/
+https://www.pexels.com/photo/building-castle-figures-facade-36006/
+
+
+<img id = "banner" src = "images/city2.jpg">
+
+            <div class = "container">
+            <h2>
+                Lorem
+            </h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos neque dolore iure veniam? Quod, error ipsa exercitationem nihil molestias modi quos maxime enim nostrum iure adipisci ipsam, vero qui ad. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Qui necessitatibus, non a odit voluptates sapiente suscipit amet sunt soluta aspernatur iure quas omnis perspiciatis. Officia possimus dignissimos eligendi optio adipisci! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non quasi dolor recusandae quis odit? Placeat consequatur obcaecati necessitatibus fugit sapiente non incidunt voluptate. Velit atque nemo ipsa voluptate dolor aperiam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum labore corrupti quas ullam. Minus recusandae ipsam molestiae voluptate enim ullam dolore ducimus dolorum neque, aliquid assumenda eum dolorem voluptatem beatae? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis, minima possimus sed, pariatur, dolore dolores error voluptate sapiente at nemo itaque. Enim est sapiente accusantium id alias magni ex facere.
+            </p>
+            </div>
