@@ -158,14 +158,21 @@ var elizaKeywords = [
     "What I mean is that you shouldn't be worrying about anything else except your grade in math."
   ]]
 ]],
+["what", 0, [
+  ["*", [
+    "Can you say that again?",
+    "Could you clarify?",
+    "What do you mean?"
+  ]]
+]],
 
 ["should I do", 8, [
   ["*", [
-    "You should take a break from studying.",
-    "You should go to sleep or take a nap.",
-    "You should switch up where you study.",
-    "You should silence your phone.", 
-    "You should try listening to music."
+    "You should take a break from studying. Come back later.",
+    "You should go to sleep or take a nap. I'll be waiting.",
+    "You should switch up where you study. Let me know if it works!",
+    "You should silence your phone. I'll be right here.", 
+    "You should try listening to music. And don't leave me just yet!"
   ]]
 ]],
 ["next", 8, [
