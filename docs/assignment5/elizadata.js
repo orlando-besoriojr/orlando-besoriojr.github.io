@@ -3,7 +3,7 @@
 // [cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]
 
 var elizaInitials = [
-"Hey! What's the problem this week?"
+"Hey! What's the subject you're struggling with this week?"
 ];
 
 var elizaFinals = [
@@ -208,6 +208,8 @@ var elizaKeywords = [
     "goto feel good"
   ]]
 ]],
+
+
 
 ["no", 0, [
   ["*", [
