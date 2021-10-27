@@ -30,7 +30,7 @@ function elizaStep() {
 	}
 	else if (userinput != '') {
 		var usr = 'YOU:   ' + userinput;
-		var rpl ='ELIZA: ' + eliza.transform(userinput);
+		var rpl ='TestBot: ' + eliza.transform(userinput);
 		elizaLines.push(usr);
 		elizaLines.push(rpl);
 		// display nicely
@@ -47,7 +47,7 @@ function elizaStep() {
 	}
 	else if (elizaLines.length == 0) {
 		// no input and no saved lines -> output initial
-		var initial = 'ELIZA: ' + eliza.getInitial();
+		var initial = 'TestBot: ' + eliza.getInitial();
 		elizaLines.push(initial);
 		f.e_display.value = initial + '\n';
 	}
