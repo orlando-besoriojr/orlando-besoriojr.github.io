@@ -107,9 +107,9 @@ var elizaKeywords = [
 
 ["math", 5, [
   ["* math *", [
-    "That sounds easy enough, just take a break and come back to it later.",
-    "I understand it's stressful, why don't you take 5 and then come back?",
-    "You should be worrying about that math test instead, honestly."
+    "Good luck",
+    "Nothing can save you now.",
+    "Your grade is too far gone."
   ]]
 ]],
 
@@ -154,23 +154,35 @@ var elizaKeywords = [
 
 ["mean", 0, [
   ["* you mean *", [
-    "I mean what I mean, study for math then maybe you can save your grade.",
-    "What I mean is that you shouldn't worry about anything else except your grade in math."
+    "I mean what I mean, you put off your math, and now there's nothing left I can do for you",
+    "What I mean is that you shouldn't be worrying about anything else except your grade in math."
   ]]
 ]],
 
 ["should I do", 8, [
   ["*", [
     "You should take a break from studying.",
+    "You should go to sleep or take a nap.",
     "You should switch up where you study.",
     "You should silence your phone.", 
     "You should try listening to music."
   ]]
 ]],
-
 ["next", 8, [
   ["*", [
     "goto should I do"
+  ]]
+]],
+["can I do", 8, [
+  ["*", [
+    "goto should I do"
+  ]]
+]],
+
+["help", 5, [
+  ["*", [
+    "Of course I can. If anything, there's a lot of things you can do right now!",
+    "That's what I'm here for!"
   ]]
 ]],
 
@@ -202,14 +214,11 @@ var elizaKeywords = [
     "If that's that, then see ya later!"
   ]]
 ]],
-
 ["feel confident", 0, [
   ["*", [
     "goto feel good"
   ]]
 ]],
-
-
 
 ["no", 0, [
   ["*", [
@@ -217,7 +226,6 @@ var elizaKeywords = [
     "How about we try the next thing?"
   ]]
 ]],
-
 ["nothing", 0, [
   ["*", [
     "goto no"
@@ -228,9 +236,10 @@ var elizaKeywords = [
   ["*", [
     "It's okay to be worried. You are just a little stressed out.",
     "Don't be, as long as you listen to me, you'll ace all your exams!",
-    "Don't think about it too much."
+    "GO GO GO. Stay POSITIVE. You shouldn't be sulking beause these tests are going to be easy!"
   ]]
 ]]
+
 
 ];
 
