@@ -216,6 +216,12 @@ var elizaKeywords = [
   ]]
 ]],
 
+["nothing", 0, [
+  ["*", [
+    "goto no"
+  ]]
+]],
+
 ["worried", 0, [
   ["*", [
     "It's okay to be worried. You are just a little stressed out.",
