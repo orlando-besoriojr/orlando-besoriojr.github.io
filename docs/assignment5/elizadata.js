@@ -291,7 +291,12 @@ var elizaKeywords = [
     "Won't hurt to try."
   ]]
 ]],
-["will that work", 0, [
+["that work", 0, [
+  ["*", [
+    "goto will it work"
+  ]]
+]],
+["that really work", 0, [
   ["*", [
     "goto will it work"
   ]]
