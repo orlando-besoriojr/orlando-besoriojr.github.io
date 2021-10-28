@@ -107,15 +107,27 @@ var elizaKeywords = [
   ]]
 ]],
 
-["math", 5, [
+["math", 2, [
   ["* math *", [
     "Good luck",
     "Nothing can save you now.",
     "Your grade is too far gone."
   ]]
 ]],
+["in math", 2, [
+  ["*", [
+    "Are you sure about that?",
+    "Check again, you might need some glasses.",
+    "The transcript never lies."
+  ]]
+]],
+["math grade", 2, [
+  ["*", [
+    "goto in math"
+  ]]
+]],
 
-["english", 5, [
+["english", 2, [
   ["*", [
     "Why don't you try cranking out those paragraphs with some music?",
     "Try some calming music, it helps me focus.",
@@ -123,7 +135,7 @@ var elizaKeywords = [
   ]]
 ]],
 
-["history", 5, [
+["history", 2, [
   ["*", [
     "History? That's the last thing you want to cram. Just take a few minutes off.",
     "Just take a break? You'll be fine.",
@@ -131,7 +143,7 @@ var elizaKeywords = [
   ]]
 ]],
 
-["social studies", 5, [
+["social studies", 2, [
   ["*", [
     "Social studies is your easiest class, if you're that stressed go take a nice, warm shower.",
     "You know, you should really take a bath and relax before you start studying again.",
@@ -139,25 +151,18 @@ var elizaKeywords = [
   ]]
 ]],
 
-["biology", 5, [
+["biology", 2, [
   ["*", [
     "Maybe try cutting back on caffeine? You just might overload your brain and crash.",
     "Maybe you should just ignore that for now. You're doing good in biology, you might want to check your math grade instead."
   ]]
 ]],
 
-["physics", 5, [
+["physics", 2, [
   ["*", [
     "Maybe you should change where you study? A bad environment can really ruin your concentration.",
     "Physics is quite difficult. Why don't you try studying at that cafe in downtown?",
     "I don't know if you should be worrying about your physics grade. You might want to polish your math skills first."
-  ]]
-]],
-
-["mean", 0, [
-  ["* you mean *", [
-    "I mean what I mean, you put off your math, and now there's nothing left I can do for you",
-    "What I mean is that you are prioritizing the wrong subjects. Focus on math."
   ]]
 ]],
 
@@ -171,6 +176,18 @@ var elizaKeywords = [
 ["huh", 0, [
   ["*", [
     "goto what"
+  ]]
+]],
+
+["mean", 5, [
+  ["*", [
+    "I'm trying to say that you put off your math, and now there's nothing left I can do for you",
+    "What I mean is that you are prioritizing the wrong subjects. Focus on math."
+  ]]
+]],
+["trying to say", 5, [
+  ["*", [
+    "goto mean"
   ]]
 ]],
 
@@ -198,8 +215,11 @@ var elizaKeywords = [
     "You shouldn't be too surprised. Especially with a password like that."
   ]]
 ]],
-
-
+["how did you", 3, [
+  ["*", [
+    "goto how do you"
+  ]]
+]],
 
 
 ["should I do", 8, [
