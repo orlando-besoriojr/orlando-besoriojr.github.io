@@ -282,7 +282,7 @@ var elizaKeywords = [
     "If that's that, then see ya later!"
   ]]
 ]],
-["feel confident", 0, [
+["confident", 0, [
   ["*", [
     "goto feel good"
   ]]
