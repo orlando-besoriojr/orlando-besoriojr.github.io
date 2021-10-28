@@ -2,6 +2,8 @@
 // entries prestructured as layed out in Weizenbaum's description 
 // [cf: Communications of the ACM, Vol. 9, #1 (January 1966): p 36-45.]
 
+// A chatbot to talk about stress relief strategies and the horrific state of your math grade.
+
 var elizaInitials = [
 "Hey! What's the subject you're struggling with this week?"
 ];
@@ -158,11 +160,34 @@ var elizaKeywords = [
     "What I mean is that you shouldn't be worrying about anything else except your grade in math."
   ]]
 ]],
+
 ["what", 0, [
   ["*", [
     "Can you say that again?",
-    "Could you clarify?",
+    "what?",
     "What do you mean?"
+  ]]
+]],
+["huh", 0, [
+  ["*", [
+    "goto what"
+  ]]
+]],
+
+["how", 0, [
+  ["*", [
+    "Trust me, the test will be a walk in the park. You just need to de-stress a little!",
+    "I believe you're just a little stressed out right now.",
+  ]]
+]],
+["how does that", 3, [
+  ["*", [
+    "goto how"
+  ]]
+]],
+["how will that", 3, [
+  ["*", [
+    "goto how"
   ]]
 ]],
 
@@ -171,7 +196,7 @@ var elizaKeywords = [
     "You should take a break from studying. Come back later.",
     "You should go to sleep or take a nap. I'll be waiting.",
     "You should switch up where you study. Let me know if it works!",
-    "You should silence your phone. I'll be right here.", 
+    "You should silence your phone. It can get really distracting! I'll be sitting here if you need anything else.", 
     "You should try listening to music. And don't leave me just yet!"
   ]]
 ]],
@@ -185,11 +210,46 @@ var elizaKeywords = [
     "goto should I do"
   ]]
 ]],
-
-["help", 5, [
+["another", 8, [
   ["*", [
-    "Of course I can. If anything, there's a lot of things you can do right now!",
+    "goto should I do"
+  ]]
+]],
+["ok", 8, [
+  ["*", [
+    "goto should I do"
+  ]]
+]],
+["they", 8, [
+  ["*", [
+    "goto should I do"
+  ]]
+]],
+
+["can't help", 8, [
+  ["*", [
+    "I don't know how much they'll help you now, but I can give you some ways to relieve the stress.",
+    "I have some stress management tactics that might help."
+  ]]
+]],
+["point", 8, [
+  ["*", [
+    "So I can remind you how bad your math grade is.",
+    "An enduring entity that admonishes your lack of effort in mathematics.",
+    "A window into the reality of your math grade."
+  ]]
+]],
+
+
+["thank", 5, [
+  ["*", [
+    "No problem!",
     "That's what I'm here for!"
+  ]]
+]],
+["thanks", 5, [
+  ["*", [
+    "goto thank"
   ]]
 ]],
 
@@ -210,7 +270,8 @@ var elizaKeywords = [
   ["*", [
     "How was it?",
     "How did it go?",
-    "Feeling refreshed?"
+    "Feeling refreshed?",
+    "Did anything happen?"
   ]]
 ]],
 
@@ -235,7 +296,9 @@ var elizaKeywords = [
 ]],
 ["nothing", 0, [
   ["*", [
-    "goto no"
+    "I'm all out of ideas then. It's okay, just do your best and you'll be just fine!",
+    "That sucks. Either way, I wish you all the luck in your test!",
+    "Atleast we tried, right? Anyways, with or without my help I think you can easily pass these exams!"
   ]]
 ]],
 
