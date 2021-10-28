@@ -149,7 +149,7 @@ var elizaKeywords = [
 ["physics", 5, [
   ["*", [
     "Maybe you should change where you study? A bad environment can really ruin your concentration.",
-    "Physics is quite difficult. Why don't you try studying at the new coffee spot that opened up?",
+    "Physics is quite difficult. Why don't you try studying at that cafe in downtown?",
     "I don't know if you should be worrying about your physics grade. You might want to polish your math skills first."
   ]]
 ]],
@@ -157,7 +157,7 @@ var elizaKeywords = [
 ["mean", 0, [
   ["* you mean *", [
     "I mean what I mean, you put off your math, and now there's nothing left I can do for you",
-    "What I mean is that you shouldn't be worrying about anything else except your grade in math."
+    "What I mean is that you are prioritizing the wrong subjects. Focus on math."
   ]]
 ]],
 
@@ -191,6 +191,17 @@ var elizaKeywords = [
   ]]
 ]],
 
+["how do you", 3, [
+  ["*", [
+    "I live in your computer. Don't think I don't see that canvas grade LOL.",
+    "I looked through your history the second you clicked on me. For shame.",
+    "You shouldn't be too surprised. Especially with a password like that."
+  ]]
+]],
+
+
+
+
 ["should I do", 8, [
   ["*", [
     "You should take a break from studying. Come back later.",
@@ -215,11 +226,6 @@ var elizaKeywords = [
     "goto should I do"
   ]]
 ]],
-["ok", 8, [
-  ["*", [
-    "goto should I do"
-  ]]
-]],
 ["they", 8, [
   ["*", [
     "goto should I do"
@@ -229,9 +235,10 @@ var elizaKeywords = [
 ["can't help", 8, [
   ["*", [
     "I don't know how much they'll help you now, but I can give you some ways to relieve the stress.",
-    "I have some stress management tactics that might help."
+    "I have some study tips that might help."
   ]]
 ]],
+
 ["point", 8, [
   ["*", [
     "So I can remind you how bad your math grade is.",
@@ -239,7 +246,11 @@ var elizaKeywords = [
     "A window into the reality of your math grade."
   ]]
 ]],
-
+["useless", 8, [
+  ["*", [
+    "goto point"
+  ]]
+]],
 
 ["thank", 5, [
   ["*", [
@@ -266,6 +277,19 @@ var elizaKeywords = [
   ]]
 ]],
 
+["I'll try", 0, [
+  ["*", [
+    "Go ahead! I'll be waiting right here for ya!",
+    "Mhmm. Let me know if it works!",
+    "See ya then!"
+  ]]
+]],
+["I will try", 0, [
+  ["*", [
+    "goto I'll try"
+  ]]
+]],
+
 ["back", 0, [
   ["*", [
     "How was it?",
@@ -288,12 +312,41 @@ var elizaKeywords = [
   ]]
 ]],
 
+["fail", 1, [
+  ["*", [
+    "Don't think like that! It feels difficult right now because you have not been taking care of yourself properly.",
+    "Even if you fail, you must atleast take care of yourself.",
+    "Worry about the grade later, you just need to freshen up and focus on the now."
+  ]]
+]],
+["feel confident", 0, [
+  ["*", [
+    "goto fail"
+  ]]
+]],
+
 ["no", 0, [
   ["*", [
     "What about something else?",
     "How about we try the next thing?"
   ]]
 ]],
+["didn't work", 0, [
+  ["*", [
+    "goto no"
+  ]]
+]],
+["not work", 0, [
+  ["*", [
+    "goto no"
+  ]]
+]],
+["not working", 0, [
+  ["*", [
+    "goto no"
+  ]]
+]],
+
 ["nothing", 0, [
   ["*", [
     "I'm all out of ideas then. It's okay, just do your best and you'll be just fine!",
