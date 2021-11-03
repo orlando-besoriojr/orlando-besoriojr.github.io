@@ -1,11 +1,3 @@
-let s13;
-let iss;
-
-function preload() {
-    s13 = loadImage('s13.jpg');
-    iss = loadImage('iss.png');
-}
-
 function setup() {
     createCanvas(windowWidth, windowHeight);
     noStroke();
@@ -13,15 +5,17 @@ function setup() {
 }
 
 function dataReceived(data) {
-    for (let i = 0; i < data['craft'].number; i++) {
+    background(240);
+    translate(width/2, height/2);
+    for(var i = 0; i < data.number; i++) {
+        push();
+        rotate(TWO_PI* i / 8);
         fill(random(255), random(255), random(255));
-        ellipse(random(width),random(height),150,150, 50);
-  }
-
-    data['people'].forEach(function (d) {
-        $('#craft').append('<li>' + d['craft']+ '</li>');
-    });
+        ellipse(300, 0, 100, 100);
+        push();
+    }
 }
 
 function draw() {
+
 }
