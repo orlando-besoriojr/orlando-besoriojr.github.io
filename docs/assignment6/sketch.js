@@ -34,7 +34,7 @@ function draw() {
     rotate(radians(frameCount/100));
     if(keyIsPressed) {
         if(keyCode == LEFT_ARROW) {
-            rotate(0);
+            rotate()
         }
         if(keyCode == RIGHT_ARROW) {
             canvas.style(`transform: rotate(${frameCount}deg)`);
