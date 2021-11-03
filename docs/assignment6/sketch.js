@@ -1,8 +1,3 @@
-let img;
-function preload() {
-  img = loadImage('earth.png');
-}
-
 
 function setup() {
     canvas = createCanvas(windowWidth, windowHeight);
@@ -13,18 +8,11 @@ function setup() {
 
 function dataReceived(data) {
     var number = data['number'];
-    var x = 400;
-    var y = 0;
-
-    image(img, 0, 0);
-    image(img, 50, 0, 40, 20, 50, 50, 50, 50);
-
-
     translate(width/2, height/2);
     for(var i = 0; i < number; i++) {
         rotate(TWO_PI / 10);
         fill(random(255), random(255), random(255));
-        ellipse(x, y, 175, 175);
+        ellipse(400, 0, 175, 175);
     }
     data['people'].forEach(function (d) {
         rotate(TWO_PI / 10);
@@ -42,10 +30,15 @@ function mouseClicked() {
 }
 
 function draw() {
-    canvas.style(`transform: rotate(${frameCount}deg)`)
-    rotate(-radians(frameCount/200))
-    if(!mousePressed) {
-        frameCount = 0;
+    canvas.style(`transform: rotate(${frameCount}deg)`);
+    rotate(radians(frameCount/100));
+    if(keyIsPressed) {
+        if(keyCode == LEFT_ARROW) {
+            rotate(0);
+        }
+        if(keyCode == RIGHT_ARROW) {
+            canvas.style(`transform: rotate(${frameCount}deg)`);
+            rotate(radians(frameCount/100));
+        }
     }
-    return false;
 }
