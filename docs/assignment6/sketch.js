@@ -1,8 +1,20 @@
-var img;
+let s13;
+let iss;
+
+var angle = 0;
+var scalar = windowHeight/2;
+varStartX = windowWidth;
+varStartY = windowHeight;
+
+function preload() {
+    s13 = loadImage('s13.jpg');
+    iss = loadImage('iss.jpg');
+}
+
 function setup() {
     createCanvas(windowWidth, windowHeight);
     noStroke();
-    img = loadImage('s13.jpg');
+    angleMode(DEGREES);
     loadJSON("http://api.open-notify.org/astros.json", dataReceived);
 }
 
@@ -13,5 +25,9 @@ function dataReceived(data) {
 }
 
 function draw() {
-    image(img, 400, 400);
+    var x = startX + scalar * cos(angle);
+    var y = startY + scalar * sin(angle);
+    image(s13, x, y, 100);
+    angle++;
+    image(iss, 500, 500)
 }
