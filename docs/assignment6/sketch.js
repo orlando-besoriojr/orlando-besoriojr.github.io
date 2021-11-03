@@ -21,7 +21,7 @@ function dataReceived(data) {
     data['people'].forEach(function (d) {
         rotate(TWO_PI / 10);
         fill('black');
-        text(d['name'], 450, 50, 175, 175);
+        text(d['name'], 450, 50, 175, 175, 100, 100);
     });
     // Get and set craft
     data['people'].forEach(function (d) {
@@ -29,9 +29,6 @@ function dataReceived(data) {
         fill('black');
         text(d['craft'], 450, 100, 175, 175);
     });
-}
-
-function mouseClicked() {
 }
 
 function draw() {
