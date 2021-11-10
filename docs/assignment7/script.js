@@ -54,6 +54,13 @@ function startStop1() {
 
         let min1 = timeMinutes1;
         let sec1 = timeSeconds1;
+
+        let div = document.getElementById("emptyDiv");
+        let inDiv = document.createElement("div");
+        inDiv.classList.add("add");
+        inDiv.innerHTML = timeMinutes1 + ":" + timeSeconds1;
+        div.appendChild(inDiv);
+
     }
 }
 
@@ -102,9 +109,6 @@ function startStop2() {
         window.clearInterval(interval2);
         document.getElementById("startStop2").innerHTML = "Start";
         state2 = 0;
-
-        let min1 = timeMinutes2;
-        let sec1 = timeSeconds2;
     }
 }
 
