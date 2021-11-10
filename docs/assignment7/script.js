@@ -1,11 +1,3 @@
-// Youtube tutorial for a stopwatch
-// https://www.youtube.com/watch?v=1INmsFnD-u4
-// There was a stopwatch because I originally thought of creating a speedrun leaderboard. But that became too big of a project, so I scrapped it last minute to make this project.
-// This turned into a reflection on how to view this art piece since when I first saw it, I was just confused as to what its purpose was.
-// The second stopwatch is used to compare the users initial and mostly visual reaction to their more interactive exploration of the piece.
-
-
-
 let seconds1 = 0;
 let minutes1 = 0;
 
@@ -60,15 +52,11 @@ function startStop1() {
         document.getElementById("startStop").innerHTML = "Start";
         state = 0;
 
-        let min1 = timeMinutes1;
-        let sec1 = timeSeconds1;
-
         let div = document.getElementById("emptyDiv");
         let inDiv = document.createElement("div");
         inDiv.classList.add("add");
-        inDiv.innerHTML = timeMinutes1 + ":" + timeSeconds1;
+        inDiv.innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
         div.appendChild(inDiv);
-
     }
 }
 
