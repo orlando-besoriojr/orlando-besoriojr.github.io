@@ -1,8 +1,3 @@
-// Youtube tutorial to make a stopwatch.
-// https://www.youtube.com/watch?v=1INmsFnD-u4
-// The purpose of this website is a reflection on what the purpose of the sculpture is for. First the user is only allowed to look, but is later given free exploration of the
-// piece with the latter experience hopefully giving more insight on what is special about it(?)
-
 let seconds1 = 0;
 let minutes1 = 0;
 
