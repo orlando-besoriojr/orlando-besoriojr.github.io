@@ -7,7 +7,7 @@
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: white;
+  color: #a398c3;
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
@@ -17,11 +17,12 @@
  */
 
 body {
+  color: #a398c3;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
   background-image: url(stadiumpieceDark.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 140%;
+  background-size: 100%;
 }
 
 .cover-container {
