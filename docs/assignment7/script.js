@@ -51,12 +51,6 @@ function startStop1() {
         window.clearInterval(interval);
         document.getElementById("startStop").innerHTML = "Start";
         state = 0;
-
-        let div = document.getElementById("emptyDiv");
-        let inDiv = document.createElement("div");
-        inDiv.classList.add("add");
-        inDiv.innerHTML = displayHours + ":" + displayMinutes + ":" + displaySeconds;
-        div.appendChild(inDiv);
     }
 }
 
@@ -68,7 +62,6 @@ function reset1() {
     document.getElementById("time").innerHTML = "00:00";
     document.getElementById("startStop").innerHTML = "Start";
 }
-
 
 function stopWatch2() {
     seconds2++;
@@ -117,4 +110,7 @@ function reset2() {
     document.getElementById("startStop2").innerHTML = "Start";
 }
 
+function thankYou() {
+    alert("Thank you!");
+}
 

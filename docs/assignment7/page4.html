@@ -28,7 +28,7 @@
 
     <title>Stairs to Nowhere</title>
   </head>
-  <body class="container py-4">
+   <body class="container py-4">
     <div class="p-5 mb-4 bg-dark text-light rounded">
       <div class="container-fluid py-5 rounded">
         <h1 class="display-5 fw-bold">Free exploration!</h1>
@@ -53,12 +53,13 @@
       </div>
     </div>
 
-    <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 fw-bold">Previous Time: </h1>
-        <div class="col-lg-6 mx-auto">
-          <div id="emptyDiv"></div>
-        </div>
+    <form>
+    <div class="form-group">
+        <label for="exampleFormControlTextarea1">Send in your thoughts on Stairs to Nowhere! Feelings, experiences, let me know!</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
       </div>
+      <button type="submit" onclick = "thankYou()" class="btn btn-outline-dark">Submit</button>
+    </form>
 
     <a href="index.html">Home</a>
     <a href="page3.html">Return</a>
