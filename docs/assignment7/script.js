@@ -1,3 +1,11 @@
+// Youtube tutorial for a stopwatch
+// https://www.youtube.com/watch?v=1INmsFnD-u4
+// There was a stopwatch because I originally thought of creating a speedrun leaderboard. But that became too big of a project, so I scrapped it last minute to make this project.
+// This turned into a reflection on how to view this art piece since when I first saw it, I was just confused as to what its purpose was.
+// The second stopwatch is used to compare the users initial and mostly visual reaction to their more interactive exploration of the piece.
+
+
+
 let seconds1 = 0;
 let minutes1 = 0;
 
