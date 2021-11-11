@@ -21,7 +21,7 @@ function dataReceived(data) {
     data['people'].forEach(function (d) {
         rotate(TWO_PI / number);
         fill('white');
-        text(d['name'], 450, 50, 175, 175, 100, 100);
+        text(d['name'], 450, 50, 175, 175);
     });
     // Get and set craft
     data['people'].forEach(function (d) {
