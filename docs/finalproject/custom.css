@@ -3,4 +3,14 @@
 /* Think about this again! */
 body {
     font-family: 'Roboto Slab', serif;
+    background: url(soundwaves.png) no-repeat center center fixed;
+    background-size: cover;
+    z-index: -1;
 }
+
+canvas {
+    background-color: white;
+    width: 100%;
+    height: auto;
+}
+
