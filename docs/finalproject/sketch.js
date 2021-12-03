@@ -40,6 +40,7 @@ function addTo(list) {
   li.classList.add("list-group-item");
   var a = document.createElement("a");
   a.classList.add("nav-link");
+  a.target = '_blank';
   a.textContent = text;
   var link = "https://youtube.com/results?search_query="+song+"+"+artist;
   a.setAttribute('href', link);
