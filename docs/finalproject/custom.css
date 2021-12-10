@@ -16,3 +16,7 @@ canvas {
     height: auto;
 }
 
+.clear {
+    clear: both;
+}
+
