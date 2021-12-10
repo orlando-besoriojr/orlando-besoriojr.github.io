@@ -20,3 +20,10 @@ canvas {
     clear: both;
 }
 
+#carousel-caption1 {
+    right: 5%;
+    text-align: right;
+    max-width: fit-content;
+    left: auto;
+    padding: 5px;
+}
