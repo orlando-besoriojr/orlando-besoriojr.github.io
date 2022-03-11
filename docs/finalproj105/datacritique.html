@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    
+
+<title>Final Project</title>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container px-lg-5">
+            <a class="navbar-brand" href="">Final Project</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="datacritique.html">Data Critique</a></li>
+                    <li class="nav-item"><a class="nav-link" href="casestudies.html">Case Studies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reflection.html">Reflection</a></li>
+                    <li class="nav-item"><a class="nav-link" href="bibliography.html">Annotated Bibliography</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="mb-5" style="background-image: url(banner.jpg)">
+        <div class="container px-lg-5">
+            <div class="p-4 p-lg-5 rounded-3 text-center">
+                <div class="m-4 m-lg-5">
+                    <h1 class="display-5 fw-bold text-white">Data Critique</h1>
+                    <p class="fs-4"></p>
+                    <!-- <a class="btn btn-primary btn-lg" href="#!"></a> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-2">
+                    <h3>
+                        What is Wikidata?
+                    </h3>
+                    <p>
+                        Wikidata was established by Wikimedia Deutschland (the German chapter of Wikimedia Foundation) in order to “...collect the world's complex knowledge in a structured manner so that anybody can benefit from it.” The company intended both for Wikidata to be the centerpiece where users of other Wiki projects would go to grab reliable and up-to-date information. Data that was created and modified in Wikidata would help alleviate issues with statistical facts and create more overall consistency across articles. Language also plays a role in the purpose of Wikidata as it allows information to pass internationally and keep everyone up to date with country-specific or exclusive information. It is this central repository that people and machines can collaborate and create structured data that can be easily analyzed and interpreted.
+                    </p>
+                </div>
+                <div class="col-md-6 mb-2">
+                    <h3>
+                        Design
+                    </h3>
+                    <p>
+                        The design of Wikidata is very rigid and well-organized. You start by going to a random page or searching for exactly what you want. Each page has a central “item” with statements that have properties along with their values. A majority of properties and values lead onto other items within Wikidata, the greater group of Wikimedia projects and sometimes to websites outside. Visually, machines interpret this design as a graph, with nodes connecting from a central item outwards to statement nodes and so on. In this sense, it is well-suited in terms of machine readability/usability. As for human readability, I don't believe that the web pages are meant for people to look at directly. After all, it is meant to be a repository where people who have knowledge in coding can manipulate the data. This means that queries through SPARQL will most likely be the only way a user can find connections between items. The properties and statements cannot be filtered in certain ways (Alphabetical, date added, relevance…) and cannot be searched for unless you use CTRL+F. In simpler words,Wikidata is a place where humans are meant to edit, while machines are meant to read. The design overall provides programmers an avenue to create machines that can distribute user/machine generated knowledge outwards onto other platforms.
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <img src="wikidataSplash.png" style="width: 100%">
+            </div>
+            <div class="row">
+                <div class="mb-2">
+                    <h3>
+                        Information
+                    </h3>
+                    <p>
+                        In terms of quality, the data is overall accurate and reliable. Content on Wikidata are observable facts and open to edit, however there are still guidelines when it comes to posting a statement listed <a href="https://meta.wikimedia.org/wiki/Wikidata/Preventing_unwanted_edits">here</a>. There is a reasonable amount of rigor in maintaining authenticity for data uploaded, but there are still some limitations. Due to the nature of commons sites like Wikidata, vandalism and bias can still be found. For example, as of writing this paper, I have found little to no bias or vandalism in the George Floyd network of items, but by looking at the revision history and discussions surrounding him, it is obvious the community had to come together and crack down on trolls or come to an understanding with people holding differing opinions. Overall, this discourse has allowed for nodes to be better representative. Also, another slight can be found while querying sets of items or even looking at a single item. Properties, (e.g. "instance of," "member of") are constantly expanding, with their meaning not universal to all user. It would sometimes take multiple attempts of finding the right property-value combination to get the information you wanted. I had expected "instance of-civil rights movement" or "part of-civil rights movement" to give me all the data surrounding the civil rights movement, but instead it had only given me a portion. Significant event, Main subject, and movement were other properties that had the bulk of the data I actually was searching for. While not necessarily a limitation, the decentralized properties can make it easy to miss other relevant items when you query.
+                    </p>
+                    <p>
+                        In terms of quantity, the wealth of information provided Wikidata is expansive and diverse. This comes from it inheriting other Wikimedia projects' already rich databases. That being said, not everything is transferred over to Wikidata. The bulk of discussion, edits and formalization occurs on these sister projects such as Wikipedia, so this aspect of exchange is lost on the user. I found it especially difficult to find the points of conflicts echoed through social media even in the most controversial of entries. As an example, a lot of the tragedies that have brought light to racial injustice in the United States of America came at a time when Wikidata was still in its early stages. I ended up finding that compared to George Floyd, Eric Garner, Trayvon Martin, and Michael Brown have long been historicized and lack the discourse around police violence, and their implications on our understanding of race in America.
+                    </p>
+                    <p>
+                        While Wikidata is still a great place to go to query large sets of data to interpret, these are some of the limitations that I had personally faced while researching on my topic.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+    </footer>
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </div>
+  </body>
+</html>
